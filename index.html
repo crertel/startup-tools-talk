@@ -357,7 +357,35 @@
 				</section>
 
 				<section data-transition="slide" data-background="#000">
-					<h1>Backend toolkits</h1>					
+					<h1>Backend tools</h1>
+				</section>
+				<section>
+					<h2>Web frameworks</h2>
+					<p>You want a framework that makes choices for you.</p>
+					<p class="fragment">&#9758; <a href="http://rubyonrails.org/">Ruby on Rails</a> started this It's got preferences for managing assets, interacting with databases, and has good community support.</p>										
+					<p class="fragment">&#9758; <a href="http://sailsjs.org/">SailsJS</a> is a Rails-inspired framework for Javascript.</p>
+					<p class="fragment">&#9758; <a href="http://laravel.com/">Laravel</a> is basically Ruby on Rails for PHP. It's clean and easy to pick up if you know PHP.</p>
+					<p class="fragment">&#9758; If you decide you just want an API, <a href="http://nodejs.org/">NodeJS</a> with <a href="http://expressjs.com/">ExpressJS</a> is a good fit. It doesn't have nearly as much structure outside of that use case, though. </p>
+				</section>
+				<section>
+					<h2>Databases</h2>
+					<p> You need a place to store structured data. </p>
+					<p class="fragment">&#9758; Just use <a href="http://www.postgresql.org/">PostgreSQL</a>.</p>
+					<p class="fragment">&#9758; If you're on Heroku, they offer it as a <a href="https://www.heroku.com/postgres">service</a>.</p>	
+				</section>
+				<section>
+					<h2>Monitoring</h2>
+					<p> Sometimes, bad things happen to good servers. So, we want to find out about it. </p>
+
+					<p class="fragment">&#9758; If you need this, you're hosting yourself...and we talked about this. &#9785;</p>
+					<p class="fragment">&#9758; If you're on Heroku, they offer <a href="https://addons.heroku.com/newrelic">New Relic</a> and <a href="https://addons.heroku.com/airbrake">Airbrake</a>.</p>	
+					<p class="fragment">&#9758; If you must, use <a href="http://www.nagios.org/">Nagios</a>.</p>
+				</section>
+				<section>
+					<h2>Bulk data storage</h2>
+					<p>Sometimes, you just need to store a bunch of files.</p>					
+					<p class="fragment">&#9758; Just use <a href="http://aws.amazon.com/s3/ ">Amazon S3</a>. Sane setup, everyone supports them, cheap.</p>
+					<p class="fragment">&#9758; If you are really paranoid, use <a href="http://www.tarsnap.com/">Tarsnap</a>. <em>This is not for normal people</em>. You'll also have to roll your own interface.</p>
 				</section>
 
 				<section data-transition="slide" data-background="#000">
